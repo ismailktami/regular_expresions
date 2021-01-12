@@ -1,0 +1,17 @@
+===Jeux de donnees===
+-kdmknkdnkmds
+-m,sd,msdksds
+-lmsf,mk,sdfs
+-s,fmsdfsd,fds
+-lf,dl,dsf,sdfs
+---
+===Jeux de donnees===
+-kdmknkdnkmds
+-m,sd,msdksds
+-lmsf,mk,sdfs
+-s,fmsdfsd,fds
+-lf,dl,dsf,sdfs
+---
+
+# ^(?!===Jeux de donnees===|---)(.*)$  pour recuperer toutes les lignes entre ===Jeux de donnees=== et ---
+# '$1', pour ajouter '' et , à la fin de chaque ligne
